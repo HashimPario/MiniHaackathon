@@ -1,0 +1,41 @@
+/*--------- heder -----------*/
+
+.header{
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+  }
+  
+  li {
+   display: inline-block;
+    border: none;
+    
+  }
+  
+  li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+
+
+  /*--------- edit button -----------*/
+
+.updateBtn{
+    background-color: cornflowerblue;
+}
+
+
+

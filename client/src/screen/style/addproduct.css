@@ -1,0 +1,127 @@
+h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+h5{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logout{
+    margin-left: 1000px;
+}
+
+.add{
+    margin: 0 auto;
+    width: 800px;
+    height: 480px;
+   
+    border: 2px black solid;
+}
+.add div{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+input{
+    width: 500px;
+    margin-left: 20px;
+}
+.add label{
+    width: 100px;
+    margin-left: 70px;
+}
+.submit{
+    background-color: rgb(58, 173, 58);
+    width: 500px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+.showdata{
+    margin: 0 auto;
+ 
+    margin-top: 50px;
+  
+}
+h3{ 
+    text-align: center;
+}
+.showtable{
+   
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.showtable td{
+    text-align: left;
+    width: 20%;
+    font-size: large;
+ 
+}
+
+/*-----Toogle Button-----*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 15px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 0px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
